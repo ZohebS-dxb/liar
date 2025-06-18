@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/create" />} /> {/* Redirect root */}
+        <Route path="/" element={<Navigate to="/join" />} /> {/* Redirect root */}
         <Route path="/create" element={<CreatePage />} />
         <Route path="/join" element={<JoinPage />} />
       </Routes>
